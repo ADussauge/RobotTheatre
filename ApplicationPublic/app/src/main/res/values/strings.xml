@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robots Théâtre</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--String de l'écran instruction de connexion-->
+    <string name="instruction_titre">Instructions de connexion au réseau local</string>
+    <string name="instruction_etape_1">Sur votre appareil Android, activez le Wifi.</string>
+    <string name="instruction_etape_2">Sélectionnez le réseau local suivant : "BRUNO-PC_Network".</string>
+    <string name="instruction_etape_3">Entrez la clé de sécurité suivant : "infobeb01".</string>
+    <string name="instruction_etape_4">Une fois connecté, appuyez sur le bouton ci-dessous.</string>
+    <string name="instruction_bouton_fermer">Suivant</string>
+
+    <!--String de l'écran contrôle du robot-->
+    <string name="controle_titre">Commandes du robot</string>
+    <string name="controle_bouton_photo">Photo</string>
+    <string name="controle_vitesse">Vitesse</string>
+    <string name="il_reste">Il vous reste</string>
+    <string name="secondes">secondes de contrôle.</string>
+
+    <!--String de la popup "Vous avez été sélectionné"-->
+    <string name="selection">Vous avez été sélectionné pour contrôler un robot sur scène !</string>
+    <string name="accepter">Accepter</string>
+    <string name="refuser">Refuser</string>
+
+    <!--String du dialog attente de permission-->
+    <string name="attente_permission">En attente de permission de contrôle du robot</string>
+
+</resources>
