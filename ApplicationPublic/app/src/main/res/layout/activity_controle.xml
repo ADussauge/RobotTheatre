@@ -104,6 +104,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:id="@+id/bouton_photo"
+            android:visibility="gone"
         />
 
     </LinearLayout>
@@ -112,7 +113,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="fill_parent">
 
         <TextView
             android:layout_width="wrap_content"
@@ -126,6 +127,7 @@
         <SeekBar
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="7dp"
