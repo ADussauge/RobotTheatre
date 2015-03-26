@@ -404,27 +404,8 @@ public class ControleActivity extends Activity
         dialog_rejouer = builder.create();
         dialog_rejouer.setCancelable(false);
         dialog_rejouer.show();
-        handler_rejouer.sendEmptyMessageDelayed(TIMEOUT_FIN, 5000);
     }
 
-    private final int TIMEOUT_FIN = 0;
-    private Handler handler_rejouer = new Handler()
-    {
-        public void handleMessage(android.os.Message msg) {
-            switch (msg.what)
-            {
-                case TIMEOUT_FIN:
-                    if (dialog_rejouer != null && dialog_rejouer.isShowing())
-                    {
-                        timer.cancel();
-                        Connexion.envoyer_fin();
-                    }
-                    break;
 
-                default:
-                    break;
-            }
-        }
-    };
 
 }
